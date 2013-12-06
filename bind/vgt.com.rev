@@ -1,0 +1,17 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+1.168.192.in-addr.arpa	IN SOA	vgt.com. root.vgt.com. (
+				20081104   ; serial
+				120        ; refresh (2 minutes)
+				14400      ; retry (4 hours)
+				3600000    ; expire (5 weeks 6 days 16 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	vgt.com.
+$ORIGIN 1.168.192.in-addr.arpa.
+$TTL 10800	; 3 hours
+206			PTR	CNPEKWV0CN344.vgt.com.
+$TTL 86400	; 1 day
+90			PTR	dns.vgt.com.
+			PTR	www.vgt.com.
+96                      PTR     pclient.vgt.com

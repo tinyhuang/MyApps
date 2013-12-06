@@ -1,0 +1,18 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+vgt.com			IN SOA	vgt.com. root.vgt.com. (
+				20081104   ; serial
+				120        ; refresh (2 minutes)
+				14400      ; retry (4 hours)
+				3600000    ; expire (5 weeks 6 days 16 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	vgt.com.
+$ORIGIN vgt.com.
+$TTL 10800	; 3 hours
+CNPEKWV0CN344		A	192.168.1.206
+			TXT	"316551b24608f0ba9799ddfa0849d01ecc"
+$TTL 86400	; 1 day
+dns			A	192.168.1.90
+www			A	192.168.1.90
+pclient                 A       192.168.1.96
